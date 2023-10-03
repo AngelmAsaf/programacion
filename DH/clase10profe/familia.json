@@ -1,0 +1,29 @@
+[
+    {
+        "codigo":1,
+        "nombre": "Gloria",
+        "apellido": "Medina",
+        "correo": "gloria@gmail.com"
+    },
+    {
+        "codigo":2,
+        "nombre": "Indira",
+        "apellido": "Giuresca",
+        "correo": "indira@gmail.com"
+    },
+    {
+        "codigo":3,
+        "nombre": "Victor",
+        "apellido": "Fuentes",
+        "correo": "victor@gmail.com"
+    },
+    {
+        "codigo":4,
+        "nombre": "Luis",
+        "apellido": "Fuentes",
+        "correo": "luis@gmail.com"
+    }
+]
+
+
+
