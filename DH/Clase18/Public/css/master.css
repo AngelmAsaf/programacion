@@ -1,0 +1,26 @@
+/*=== Aplicando CSS de forma Global===*/
+img{
+    width: 100%;
+}
+figure.logo{
+   width: 20%; 
+}
+h1{
+    /*Propiedad : Valor;*/
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    background-color: tomato;
+  }
+  #subtitulo1, #subtitulo2{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+  .destacado{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }    
