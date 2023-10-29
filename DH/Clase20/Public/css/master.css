@@ -1,0 +1,96 @@
+/*=== Aplicando CSS de forma Global===*/
+/*=== Selector universal===*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+body {
+  background-color: tomato;
+  font-size: 10px;
+}
+
+figure.logo {
+  width: 50%;
+  margin: auto;
+}
+
+.imagenFondo {
+  display: none;
+}
+
+.titulo {
+  /*Propiedad : Valor;*/
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  /*=== 1rem = 16px ===*/
+  background-color: tomato;
+}
+
+#subtitulo1,
+#subtitulo2 {
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.destacado {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+/*=== APlicando el comportamiento Responsive - Adaptativo===*/
+@media(min-width: 600px) {
+  body {
+    background-color: teal;
+  }
+
+  figure.logo {
+    width: 20%;
+    margin-left: 0;
+  }
+  .encabezado {
+    display: flex;
+    align-items: center;
+  }
+  .imagenFondo {
+    display: block;
+  }
+  nav.barraNavegacion{
+    width: 60%;
+  }
+  ul.opciones {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media(min-width:992px) {
+  body {
+    background-color: violet;
+  }
+
+  figure.logo {
+    width: 15%;
+  }
+}

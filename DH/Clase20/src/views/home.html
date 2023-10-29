@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Todo lo del head es para la configuración de la página-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro sitio web</title>
+    <style>
+      /*=== Aplicando CSS de forma interna===*/
+      /*=== Etiquetas ( h1 h2 h3 p ul ) - ID ( # ) - Clases ( . )===*/
+      /* h1{
+        /*Propiedad : Valor;
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        background-color: tomato;
+      }
+      #subtitulo1, #subtitulo2{
+        color: blue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 40px;
+        text-align: center;
+      }
+      .destacado{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;
+        text-align: center;
+      } */
+    </style>
+    <!-- === Aplicando CSS de forma externa===-->
+    <link rel="stylesheet" href="/css/master.css">
+</head>
+<body>
+   <header class="encabezado">
+    <figure class="logo">
+        <!--Rutas: relativas - absolutas-->
+        <img src="https://images.prismic.io/dh-frontend/3daea5ec-e5b0-451a-a27e-2b039506c9ca_DigitalHouse_Logo_Black.png?auto=compress,format" alt="Logo de Digital House">
+    </figure>
+    <nav class="barraNavegacion">
+      <ul class="opciones">
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Nosotros</a></li>
+        <li><a href="">Productos</a></li>
+        <li><a href="">Contacto</a></li>
+      </ul>  
+    </nav>
+   </header>
+   <section class="imagenFondo">
+    <!--Ruta relativa-->
+    <img src="/img/entrepreneur-3850511_1280.jpg" alt="Tecnología">
+   </section>
+   <!--Aplicando CSS en línea-->
+   <!-- <h1 style="color: white;text-align: center;font-family: Arial, Helvetica, sans-serif;font-size: 50px;background-color: tomato;">Bienvenid@ a nuestro sitio web</h1> -->
+
+   <h1  class="titulo">Bienvenid@ a nuestro sitio web</h1>
+   <h2 class="destacado">Ya casi culmino amigos</h2>
+   <h2 id="subtitulo2">Para que ustedes practiquen bastante</h2>
+   <section class="productos">
+    <article class="producto">
+
+    </article>
+    <article class="producto">
+
+    </article>
+    <article class="producto">
+
+    </article>
+   </section>
+   <footer class="piePagina">
+
+   </footer>
+</body>
+</html>
+
+
